@@ -15,12 +15,12 @@ public class Trio {
         this.drink = drink;
     }
 
-    public getName()
+    public String getName()
     {
         return sandwich.getName() + “/” + salad.getName() + “/” + drink.getName() + ” trio”;
     }
 
-    public getPrice()
+    public double getPrice()
     {
         double priceSandwich = Sandwich.getPrice();
         double priceSalad = Salad.getPrice();
